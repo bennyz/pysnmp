@@ -99,4 +99,4 @@ ntfOrg.send_pdu(
 print("Notification is scheduled to be sent")
 
 # Run I/O dispatcher which would send pending message and process response
-snmpEngine.oepn_dispatcher()
+snmpEngine.open_dispatcher()
